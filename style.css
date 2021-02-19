@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 15px;
+}
+.container {
+  min-height: 100vh;
+  background-image: url("Ntflx.jpg");
+  background-size: cover;
+}
+.nice{
+    background-color: rgba(0, 0, 0, 0.6);
+    min-height: 100vh;
+}
+h1 {
+  color: rgb(226, 64, 64);
+  font-size: 40px;
+}
+.signin{
+    background-color: rgb(226, 64, 64);
+    outline: none;
+    padding: 7px;
+    border: none;
+    font-size: 15px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 150px;
+  color: white;
+  /* z-index: 1; */
+}
+.info_1 {
+  font-size: 50px;
+
+}
+.get {
+  background-color: rgb(226, 64, 64);
+  padding: 7px;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-left: 0;
+}
+.email {
+  padding: 7px;
+  width: 300px;
+  outline: none;
+}
+.info_para{
+  font-size: 23px;
+}
+
+/* enjoy section */
+
+.enjoy{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 40vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  border-top: 5px solid grey;
+}
+
+.enjoy_a{
+  width: 250px;
+}
+
+.enjoy_i{
+  margin-top: 5px;
+}
+
+/* downlaod */
+.download{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 40vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  border-top: 5px solid grey;
+}
+
+.download_a{
+  width: 250px;
+}
+
+.download_i{
+  margin-top: 5px;
+}
+/* watch */
+.watch{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 40vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  border-top: 5px solid grey;
+}
+
+.watch_a{
+  width: 250px;
+}
+
+.watch_i{
+  margin-top: 5px;
+}
+
+/* questions */
+
+.question{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  min-height: 50vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  border-top: 5px solid grey;
+}
+
+.questions{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.o{
+  background-color: rgb(157, 214, 83);
+  padding: 10px;
+  margin-bottom: 10px;
+  user-select: none;
+}
+span{
+  float: right;
+}
+
+@media only screen and (max-width: 1022px){
+  .questions{
+    width: 300px;
+  }
+}
